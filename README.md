@@ -1,17 +1,10 @@
-pipeline{
-    agent any
-    stages {
-        stage('Build') {
-            steps {
-                echo 'Building...'
-            }
+pipeline {
+    agent any 
+    stages{
+        stage (build){
+            step 
+            sh ..
+            touch 12.txt
         }
-        stage('Test') {
-            steps {
-                echo 'Testing...'
-            }
-        }
-        stage('Deploy') {
-            steps {
-                echo 'Deploying...'
-            }
+    }
+}
