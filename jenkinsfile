@@ -5,7 +5,7 @@ pipeline {
             steps {
                 sh {
                     echo 'Checking out the code...'
-                
+                    echo "hwloejkiwjefowefkweofk"   
                 }
             }
         }
