@@ -11,3 +11,7 @@ pipeline {
         }
     }
 }
+
+
+
+echo "testing the pipeline job"
